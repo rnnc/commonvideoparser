@@ -1,0 +1,8 @@
+node_modules/
+lib/
+.gitignore
+package-lock.json
+playground.js
+.babelrc
+*.log
+yarn.lock

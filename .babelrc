@@ -1,13 +1,13 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
         "targets": {
           "node": "8.11.1"
         },
-        "useBuiltIns": "entry",
-        "debug": true
+        "debug": true,
+        "loose": true
       }
     ]
   ],
@@ -18,7 +18,5 @@
       ]
     }
   },
-  "plugins": [
-    "transform-runtime"
-  ]
+  "plugins":["@babel/plugin-transform-runtime"]
 }
