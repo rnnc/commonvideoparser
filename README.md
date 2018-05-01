@@ -12,6 +12,8 @@ Supported as of now
 
 *Disclaimer: You have to provide your own API Authentication info for Vimeo & Youtube/Google Drive (can use same key for both technically).*
 
+
+
 # Installation
 
 `npm i commonvideoparser`
@@ -26,9 +28,13 @@ Supported as of now
 
 If you have jest installed globally, simply run `jest` in folder
 
+---
+
 # How To Use
 
-## Initialize
+
+
+### Initialize
 
 Make sure you have enabled Youtube & Google Drive API for your app key;
 
@@ -55,11 +61,11 @@ vLib.setVimeoApiConfig({
 
 ```
 
----
 
-__Individual video libraries return promises, can be handled with async/await__
+#### __Individual video libraries return promises, can be handled with async/await__
 
----
+
+
 ## Youtube
 
 ### Single/Multiple Video Links
@@ -109,7 +115,7 @@ vLib.youtube.playlistVideoData("https://www.youtube.com/playlist?list=XXXXXXXXXX
 // Same as others, can pass array of playlist links
 
 ```
----
+
 ## Vimeo
 
 ```js
@@ -119,7 +125,7 @@ vLib.vimeo.videoData("https://vimeo.com/XXXXXXX")
 // Same as others, can pass array of video links
 
 ```
----
+
 ## Dailymotion
 
 ```js
@@ -132,7 +138,7 @@ vLib.dailymotion.videoData([
 // can pass array and shortened urls
 
 ```
----
+
 ## Google Drive
 
 ```js
