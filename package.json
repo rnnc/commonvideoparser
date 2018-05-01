@@ -1,6 +1,6 @@
 {
   "name": "commonvideoparser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gets video info from popular video sites (Youtube, Vimeo, Dailymotion, Google Drive)",
   "main": "index.js",
   "engines": {
