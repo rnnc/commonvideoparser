@@ -156,11 +156,13 @@ vLib.dailymotion.videoData([
 
 # ES6
 
-If you want to use individual modules, you can set API/Config directly from within
+If you want to use individual modules, you can set API/Config directly from within.
+
+(For Youtube, Google Drive, Vimeo)
 
 ```js
 
-import {vimeo as vm} from 'commonvideoparser';
+import { vimeo as vm } from 'commonvideoparser';
 
 vm.setVimeoApiConfig({
   CLIENT_ID:"XXXXXXXXXXXXXXXXXX",
