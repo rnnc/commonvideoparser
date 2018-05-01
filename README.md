@@ -28,13 +28,9 @@ Supported as of now
 
 If you have jest installed globally, simply run `jest` in folder
 
----
+
 
 # How To Use
-
-
-
-### Initialize
 
 Make sure you have enabled Youtube & Google Drive API for your app key;
 
@@ -43,7 +39,10 @@ This app doesn't use oAuth, use simple API key
 https://console.developers.google.com
 
 Get Vimeo auth config
+
 https://developer.vimeo.com/
+
+## Initialize
 
 ```js
 
@@ -170,6 +169,4 @@ vm.setVimeoApiConfig({
 });
 
 ```
-
----
 ---
