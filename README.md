@@ -12,6 +12,10 @@ Supported as of now
 
 *Disclaimer: You have to provide your own API Authentication info for Vimeo & Youtube/Google Drive (can use same key for both technically).*
 
+##### To Do : 
+- Add typings file
+- Better documentation for what API data is being returned
+- Non specifc get function that auto parses link and gets data
 
 
 # Installation
