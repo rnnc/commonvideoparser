@@ -1,0 +1,24 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "8.11.1"
+        },
+        "useBuiltIns": "entry",
+        "debug": true
+      }
+    ]
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        "minify"
+      ]
+    }
+  },
+  "plugins": [
+    "transform-runtime"
+  ]
+}
