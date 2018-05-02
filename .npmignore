@@ -4,5 +4,5 @@ lib/
 package-lock.json
 playground.js
 .babelrc
-*.log
+yarn-error.log
 yarn.lock
