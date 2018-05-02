@@ -62,7 +62,6 @@ const test_vData_vm = [
     duration: 'PT7M59S',
     description: 'One of the best gifts I\'ve ever received on my travels is a stove made with nothing but a drinks can and a knife. In this video, we\'re going to learn how to make it.\n\nThe stove runs on alcohol, of which the most common source is medical alcohol from your local pharmacy. For information on finding fuel for the stove, visit http://zenstoves.net/Stoves.htm#Fuels\n\nIt goes without saying that fire can be dangerous. Be respectful and enjoy putting this stove to good use!\n\nhttp://tomsbiketrip.com',
     user: 'Tom Allen',
-    user_link: 'https://vimeo.com/tomallen',
     created_time: '2013-04-24T14:03:00+00:00',
     release_time: '2013-04-24T14:03:00+00:00',
     dimensions: '1280 x 720',
@@ -74,7 +73,6 @@ const test_vData_vm = [
     duration: 'PT2M42S',
     description: 'It\'s been a while...\n\nomg and there\'s merch here: https://society6.com/kirstenlepore\n\nWritten, Directed, and Animated by Kirsten Lepore\nVoice by Garrett Davis\nFinal Sound Mix by David Kamp\nThanks to:\nDan Kwan\nKent Osborne\nLate Night Work Club',
     user: 'Kirsten Lepore',
-    user_link: 'https://vimeo.com/kirstenlepore',
     created_time: '2016-11-03T09:24:56+00:00',
     release_time: '2016-11-03T09:24:56+00:00',
     dimensions: '1920 x 1080',
@@ -89,7 +87,7 @@ const test_vData_dm = [
     duration: 'PT2M38S',
     createdTime: '2018-04-27T14:43:25.000Z',
     dimensions: '1920 x 1080',
-    poster: 'http://s2.dmcdn.net/qGnim.jpg'
+    thumbnail: 'http://s2.dmcdn.net/qGnim.jpg'
   },
   {
     title: 'Profiles In Discourage: Foster Friess Says The Rich Should \'Self-Tax\'',
@@ -97,7 +95,7 @@ const test_vData_dm = [
     duration: 'PT3M13S',
     createdTime: '2018-04-28T07:35:00.000Z',
     dimensions: '640 x 360',
-    poster: 'http://s2.dmcdn.net/qHFqz.jpg'
+    thumbnail: 'http://s2.dmcdn.net/qHFqz.jpg'
   }
 ]
 

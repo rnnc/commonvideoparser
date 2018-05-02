@@ -14,8 +14,8 @@ Supported as of now
 
 ##### To Do : 
 - Add typings file
-- Better documentation for what API data is being returned
 - Non specifc get function that auto parses link and gets data
+- Make returned data fields/objects more consistent
 
 
 # Installation
@@ -155,6 +155,21 @@ vLib.dailymotion.videoData([
 // Can pass array and different variations of the link
 
 ```
+---
+
+## __Data Returned__
+
+|   Youtube   |     Vimeo    | Dailymotion | Google Drive |
+| ----------- | ------------ | ----------- | ------------ |
+| title       | name         | title       | title        |
+| duration    | duration     | duration    | duration     |
+| link        | link         | link        | link         |
+| embeddable  | user         | createdTime | size         |
+| channel     | description  | dimensions  | createdTime  |
+| description | created_time | thumbnail   | thumbnail    |
+| published   | release_time |             | dimensions   |
+| thumbnail   | dimensions   |             |              |
+|             | thumbnail    |             |              |
 
 ---
 
