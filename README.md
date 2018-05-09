@@ -17,6 +17,10 @@ Supported as of now
 - Non specifc get function that auto parses link and gets data
 - Make returned data fields/objects more consistent
 
+## Changelog:
+(1.1.0)
+- Uses bluebird promises and axios now instead of request-promise
+- optimized code, reduced average time for multi-requests by atleast 40%
 
 # Installation
 
