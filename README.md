@@ -88,12 +88,10 @@ vLib.youtube.videoData("https://www.youtube.com/watch?v=XXXXXXX")
 // Shortened links also work
 // https://youtu.be/XXXXXXXXXXX
 
-// Can also pass array of videos
+vLib.youtube.videoData("https://www.youtube.com/watch?v=XXXXXXX","https://youtu.be/XXXXXXX")
 
-vLib.youtube.videoData([
-  "https://www.youtube.com/watch?v=XXXXXXX",
-  "https://youtu.be/XXXXXXX"
-])
+// Can also pass array of videos
+vLib.youtube.videoData([link1, link2])
 
 ```
 ### Playlist Info 
@@ -104,12 +102,12 @@ Basic Playlist Info, not the actual videos of the playlist
 
 vLib.youtube.playlistInfoData("https://www.youtube.com/playlist?list=XXXXXXXXXXX")
 
+vLib.youtube.playlistInfoData("https://www.youtube.com/playlist?list=XXXXXXXXXXX",
+  "https://www.youtube.com/playlist?list=XXXXXXXXXXX")
+
 // Can also pass array
 
-vLib.youtube.playlistInfoData([
-  "https://www.youtube.com/playlist?list=XXXXXXXXXXX",
-  "https://www.youtube.com/playlist?list=XXXXXXXXXXX"
-])
+vLib.youtube.playlistInfoData([link1,link2])
 
 ```
 
